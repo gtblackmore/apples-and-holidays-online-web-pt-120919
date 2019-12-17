@@ -24,7 +24,7 @@ end
 def add_supply_to_memorial_day(holiday_hash, supply)
  holiday_hash.each do |season, holiday|
     if season == :spring
-      holiday_hash[:spring][:memoria_day] = "#{supply}"
+      holiday_hash[:spring][:memorial_day] = "#{supply}"
     end
    holiday_hash 
   end  
